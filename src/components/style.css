@@ -1,0 +1,56 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+.container {
+    width: 75vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.containerForca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+}
+
+.specialCharacter {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+input[type="text"] {
+    margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 0.35rem;
+    font-size: 1rem;
+    border-color: #000;
+}
+
+img {
+    display: block;
+    height: 5rem;
+}
